@@ -14,3 +14,6 @@ function collectOddValues(arr){
 }
 
 console.log(collectOddValues([1,2,3,4,5,6,7]))
+
+//slice, spread operator, and concat makes copies of the arrays
+//to make copies use Object.assign or the spread operator
