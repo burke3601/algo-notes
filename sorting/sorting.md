@@ -41,7 +41,7 @@ builds up the sort by gradually creating a larger portion which is always sorted
  - Insertion Sort O(n^2)
  - Selection Sort O(n^2)
  - Quick Sort o(n log(n))
-- Merge Sort o(n log(n))
+ - Merge Sort o(n log(n))
 
 
 ## Merge Sort
@@ -62,4 +62,9 @@ builds up the sort by gradually creating a larger portion which is always sorted
 
 best time complexity is O(n log n)
 
-## Radix
+## Radix Sort
+- special sorting algo that works on lists of numbers
+- it never makes comparisons between elements
+- it exploits the fact that info about the size of a number is encoded in the number of digits
+
+Time Complexity for best, average, and worst is  O(nk)
