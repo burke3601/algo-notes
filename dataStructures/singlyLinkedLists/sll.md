@@ -42,3 +42,11 @@ Removing a node from the Linked List at a specific position
 
 ## Reverse
 reversing the Linked List in place
+
+## Big 0 of Singly Linked Lists
+- insertion - o(1) (faster than array, average with array is o(N))
+- removal - depends... O(1) or O(N) ()
+- searching - O(N)
+- access - O(N)
+
+faster at insertion and deletion
