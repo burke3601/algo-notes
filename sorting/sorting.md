@@ -68,3 +68,8 @@ best time complexity is O(n log n)
 - it exploits the fact that info about the size of a number is encoded in the number of digits
 
 Time Complexity for best, average, and worst is  O(nk)
+Space Complexity is O(n +k)
+
+- n - length of array
+- k - number of digits(average)
+
