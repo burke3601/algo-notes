@@ -33,5 +33,6 @@ list = new DoublyLinkedList
 list.push(34);
 list.push(44);
 list.push("Last item!!!!!");
+list.push("actual last item")
 
 console.log(list)
