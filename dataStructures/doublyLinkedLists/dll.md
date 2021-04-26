@@ -6,3 +6,16 @@
 
 
 
+# Big O of DOuble Linked Lists
+
+- insertion - O(1)
+- removal - O(1)
+- searching O(N)
+- access - O(N)
+
+## Recap
+
+- DLL almost identical to SLL except ther is an additional pointer to the previous nodes
+- better than SLL for finding nodes and can be done in half the time
+- they do take up more memory considering the extra pointer
+

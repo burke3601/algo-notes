@@ -90,6 +90,7 @@ class SinglyLinkedList{
 
     }
     
+    
 }
 
 var list = new SinglyLinkedList()
