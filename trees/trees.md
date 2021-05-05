@@ -33,7 +33,28 @@
 
 
 
+## Traversing a Tree
+- breadth first
+- depth search 
 
+### Breadth First Search
+visit sibling nodes before looking at a child, working horizontally
 
+- create a quese (can be an array) and a variable to store the values of the nodes
+- place the root node in the queue
+- loop as long there is anything in the queue
+    - dequeue the node from the queue and push the value of the node to the vairable that soters nodes
+    - if there is a left property on the node dequeued - add it ot the queue
+    - if there is a right on the node dequeued - add it tot he queue
+- return the vairable that stores the values
 
-
+## Depth First
+(recursive)
+- create a variable to store the values of nodes visited
+- store the root of the BST in a variable called current
+- write a helper function which accepts a node
+    - push the value of the node to the variable that stores the values
+    - if the node has a left property, call the helper function with the left property on the node
+    -  if the node has a right property, call the helper function with the right property on the node
+- invoke the helper function wiht the current variable
+- return the array of values
