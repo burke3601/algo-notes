@@ -58,3 +58,9 @@ visit sibling nodes before looking at a child, working horizontally
     -  if the node has a right property, call the helper function with the right property on the node
 - invoke the helper function wiht the current variable
 - return the array of values
+
+
+## DFS vs BFS
+(it depends on the situation!)
+
+in a wider tree, depth first uses less space (not about time)
