@@ -50,20 +50,20 @@ console.log(charCount("aaaa ygygjkfhkg"))
 // console.log(charCount("hello"))
 // console.log(charCount("hello Hi There!!!"))
 
-function charCountAlt(str) {
-    const obj = {};
-    for (let char of str) {
-        char = char.toLowerCase();
-        if (/[a-z0-9]/.test(char)){
-            if (obj[char] > 0) {
-                obj[char] ++;
-            } else obj[char] = 1
-        }
-    }
+// function charCountAlt(str) {
+//     const obj = {};
+//     for (let char of str) {
+//         char = char.toLowerCase();
+//         if (/[a-z0-9]/.test(char)){
+//             if (obj[char] > 0) {
+//                 obj[char] ++;
+//             } else obj[char] = 1
+//         }
+//     }
 
-    return obj;
-}
+//     return obj;
+// }
 
-console.log(charCountAlt("asdkljdsfjkldfjk 1232kjdf;j4r"));
+// console.log(charCountAlt("asdkljdsfjkldfjk 1232kjdf;j4r"));
 
 //could also make a helper function

@@ -28,6 +28,7 @@ function anagrams(str1, str2){
 }
 
 console.log(anagrams("abc", "cba"));
+console.log((anagrams("abcdefgh", "ahgfbcde")));
 
 // let str1 = "abc"
 // let str2 = "bca"
