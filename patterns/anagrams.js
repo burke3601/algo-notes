@@ -1,34 +1,82 @@
 //given two strings write a function to determine if the second string is an anagram of the first
 
-function anagrams(str1, str2){
 
+
+
+function anagrams(str1, str2){
     if(str1.length !== str2.length){
-        return false;
+        return false
     }
+    
     const lookup = {};
 
-    for (let i = 0; i < str1.length; i++){
+    for(let i = 0; i < str1.length; i ++){
         let letter = str1[i];
-
+        //if letter exists, increment, otherwise add 1
         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
     }
     console.log(lookup)
 
-    for (let i = 0; i < str2.length; i++){
+    for(let i = 0; i < str2.length; i ++){
         let letter = str2[i];
-
+        
         if(!lookup[letter]){
-            return false;
-        } else {
-            lookup[letter] -= 1
+            return false
+        }else {
+            lookup[letter] -= 1;
         }
     }
 
     return true;
+
+
 }
 
-console.log(anagrams("abc", "cba"));
-console.log((anagrams("abcdefgh", "ahgfbcde")));
+
+
+console.log(anagrams("abcde", "dcbae"))
+console.log(anagrams("bcde", "dcba"))
+
+
+
+
+
+
+
+
+
+
+
+
+// function anagrams(str1, str2){
+
+//     if(str1.length !== str2.length){
+//         return false;
+//     }
+//     const lookup = {};
+
+//     for (let i = 0; i < str1.length; i++){
+//         let letter = str1[i];
+
+//         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
+//     }
+//     console.log(lookup)
+
+//     for (let i = 0; i < str2.length; i++){
+//         let letter = str2[i];
+
+//         if(!lookup[letter]){
+//             return false;
+//         } else {
+//             lookup[letter] -= 1
+//         }
+//     }
+
+//     return true;
+// }
+
+// console.log(anagrams("abc", "cba"));
+// console.log((anagrams("abcdefgh", "ahgfbcde")));
 
 // let str1 = "abc"
 // let str2 = "bca"
